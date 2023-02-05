@@ -1,9 +1,11 @@
 import logo from './logo.png';
 import './App.css';
+import Header from './components/Header'
 
-function App() {
+function Home() {
   return (
     <div className="App">
+      <Header />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <br/>
@@ -15,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

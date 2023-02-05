@@ -1,0 +1,17 @@
+.Header {
+  height: 100px;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 110px;
+}
+
+.about {
+
+  margin-right: 30px;
+  padding-top: 40px;
+}
